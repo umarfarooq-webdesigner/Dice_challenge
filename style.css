@@ -67,8 +67,10 @@ body
     }
     .images
 {
-    width: 15vh;
+    width: 10vh;
     height: 15vh;
+    margin: 5px;
+        
 }
     
 }
