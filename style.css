@@ -1,0 +1,69 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Indie Flower';   
+}
+button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 42%;
+    background-color: rgb(177, 2, 2);
+    color: white;
+    padding: 10px 30px 10px 30px ;
+    border-radius: 25px;
+}
+button:hover
+{
+    background-color: white;
+    color: rgb(177, 2, 2);
+    border: 2px solid rgb(177, 2, 2);
+    font-weight: bold;
+}
+.container
+{
+    width: 60%;
+}
+body
+{
+    background-color: black;
+    color: #59CE8F;
+}
+.container h1
+{
+    font-size: 110px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Lobster', cursive;  
+}
+.dicee
+{   
+    text-align: center;
+}
+.dicee p
+{
+    font-size: 40px;
+}
+.images
+{
+    width: 28vh;
+    height: 28vh;
+}
+
+@media screen and (max-width: 770px){
+    .container{
+    width: 100%;
+    }
+
+    .container h1{
+    font-size: 60px;
+    }
+
+    .dicee p{
+    font-size: 25px;
+    }
+    
+    button{
+        margin-left: 30%;
+    }
+
+}
