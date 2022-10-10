@@ -65,5 +65,11 @@ body
     button{
         margin-left: 30%;
     }
+    .images
+{
+    width: 18vh;
+    height: 18vh;
+}
+    
 
 }
